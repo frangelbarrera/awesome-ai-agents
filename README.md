@@ -319,5 +319,3 @@ Automated systems that ingest chaotic data environments, generate complex SQL/Py
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome! We encourage the community to submit Pull Requests to expand this repository. If you have a tool or repository to suggest, please ensure it aligns with the high technical standard and format of the existing tables (specifying Stack, Engine, and Deployment accurately).
 
-## 📄 License
-This project is licensed under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (CC-BY-4.0). Feel free to share, adapt, and build upon the material for any purpose, even commercially, as long as you give appropriate credit.
