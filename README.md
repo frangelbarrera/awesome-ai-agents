@@ -1,5 +1,9 @@
 # The AI Agents Repository
 
+<p align="center">
+  <img src="assets/images/1.png" alt="Awesome AI Agents Banner" width="100%">
+</p>
+
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
