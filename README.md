@@ -269,6 +269,7 @@ Frameworks and pipelines designed to enforce policy constraints, prevent prompt 
 | **Llama Guard** | Tuned safeguard classifier determining adversarial input topologies to reject unsafe conversational payloads. | Llama | API-based | Library | [Link](https://github.com/meta-llama/PurpleLlama) |
 | **Garak** | Systematic vulnerability scanner probing for hallucination vectors and jailbreak surfaces in LLM agents. | Python | API-based | CLI | [Link](https://github.com/leondz/garak) |
 | **Lakera Guard** | Comprehensive API-based security middleware blocking active execution attacks on agentic APIs. | Python | API-based | API | [Link](https://github.com/lakeraai) |
+| **TWZRD Agent Intel** | On-chain identity verification MCP for Solana agent wallets. Pre-payment trust scoring: `score_agent(wallet)` and `preflight_check(wallet)` free; `get_trust_receipt(wallet)` via x402. Prevents impersonation in agent-to-agent payment flows. | TypeScript | API-based | MCP/HTTP | [Link](https://intel.twzrd.xyz) |
 
 ---
 
