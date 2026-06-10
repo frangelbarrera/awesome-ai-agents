@@ -313,6 +313,7 @@ Automated systems that ingest chaotic data environments, generate complex SQL/Py
 | **Dataherald** | Natural Language-to-SQL engine constructed over relational databases, supporting RAG-style schema alignment and determinism. | Python | Hybrid | Web UI | [Link](https://github.com/Dataherald/dataherald) |
 | **PandasAI** | Conversational data analysis library that allows users to interact with their databases and dataframes using natural language. | Python | API-based | Jupyter | [Link](https://github.com/sinaptik-ai/pandas-ai) |
 | **LlamaIndex** | Though a data framework, its Agentic Data Engines autonomously route, synthesis, and query disparate vector and SQL nodes. | Python/TS | Hybrid | Library | [Link](https://github.com/run-llama/llama_index) |
+| **AI for Database** | Agentic AI that connects to any database (Postgres, MySQL, MongoDB) and enables natural language querying, self-refreshing dashboards, and workflow automation. | SaaS | Hybrid | Web UI | [Link](https://aifordatabase.com) |
 
 ---
 
