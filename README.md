@@ -79,6 +79,7 @@ Development, review, and scaling of source code managed by AI.
 | **Continue** | IDE proxy layer routing context payloads and FIM requests to strictly configured local/remote inference endpoints. | TypeScript | Hybrid | IDE Extension | [Link](https://github.com/continuedev/continue) |
 | **SWE-agent** | Automated patching daemon mapping GitHub issues to local repository diffs utilizing isolated bash evaluation. | Python | Hybrid | CLI | [Link](https://github.com/princeton-nlp/SWE-agent) |
 | **GPT-Engineer** | Scaffolding compiler converting high-level markdown specs to fully initialized workspaces via sequential AST generation. | Python | API-based | CLI | [Link](https://github.com/gpt-engineer-org/gpt-engineer) |
+| **Hephaestus** | Local-first runtime routing Claude Code, Codex, and Cursor agent packages through MCP/A2A gates. | Python | Hybrid | CLI | [Link](https://github.com/agentlas-ai/Hephaestus) |
 | **Cline** | IDE-embedded background worker interacting with the Language Server Protocol and filesystem watchdogs for code mutating. | TypeScript | Hybrid | IDE Extension | [Link](https://github.com/cline/cline) |
 | **Mentat** | CLI abstraction operating over raw file streams and repository graphs for cross-file variable reference propagation. | Python | Hybrid | CLI | [Link](https://github.com/Mentat-AI/mentat) |
 | **Plandex** | Go-based background orchestrator executing iterative refactoring tasks through detached daemon processes and git tracking. | Go | Hybrid | CLI | [Link](https://github.com/plandex-ai/plandex) |
