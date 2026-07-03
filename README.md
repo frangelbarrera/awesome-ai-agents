@@ -127,6 +127,7 @@ Extraction, filtering, and summarization of information from public sources.
 | **Awesome Cybersecurity Agentic AI** | Compilation of repositories and passive analysis schemas for OSINT sources. | Markdown | N/A | Document | [Link](https://github.com/raphabot/awesome-cybersecurity-agentic-ai) |
 | **Ubikron Graph Architecture** | Correlation of intelligence entities via graph databases. Maps iterative B2B relationships. | Graph/Neo4j | Local Inference | Web UI | [Link](https://github.com/ubikron/Awesome-AI-OSINT) |
 | **Awesome OSINT Digester** | Comprehensive directory of OSINT sources for manual intelligence gathering and agentic ingestion. | Python | Hybrid | CLI | [Link](https://github.com/jivoi/awesome-osint) |
+| **Xquik** | X/Twitter data and automation API with MCP support for agents that search posts, inspect profiles, export follower data, monitor activity, and trigger posting workflows. | TypeScript | API-based | API/MCP | [Link](https://docs.xquik.com/api-reference/overview) |
 
 ---
 
