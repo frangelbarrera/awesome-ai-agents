@@ -196,7 +196,7 @@ Privacy-first agents running entirely on local hardware without cloud API depend
 | **LocalAI** | Drop-in OpenAI-compatible API server running on CPU/GPU with model quantization and function calling support. | Go/Python | Local Inference | Docker | [Link](https://github.com/mudler/LocalAI) |
 | **LM Studio** | Desktop GUI for discovering, downloading, and running local LLMs with agent-compatible chat completions API. | TypeScript/C++ | Local Inference | App/Web | [Link](https://lmstudio.ai/) |
 | **llama.cpp** | Minimal C/C++ inference engine for running LLaMA models on consumer hardware with GGUF quantization. | C/C++ | Local Inference | CLI | [Link](https://github.com/ggml-org/llama.cpp) |
-| **Hivekeep** | Self-hosted platform running a team of specialized AI agents with persistent memory, a web UI, and self-built tools/plugins; reachable over Telegram, Slack, Discord, and Matrix; single container. | TypeScript/Bun/SQLite | Hybrid | Docker | [Link](https://github.com/MarlBurroW/hivekeep) |
+| **Hivekeep** | Self-hosted platform of persistent AI agents that collaborate, build their own tools, and answer over Telegram, Slack, Discord, and Matrix. | TypeScript/Bun/SQLite | Hybrid | Docker | [Link](https://github.com/MarlBurroW/hivekeep) |
 
 ---
 ## 11. Advanced Guides, Tips, and Prompts
