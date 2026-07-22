@@ -7,6 +7,11 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![Stars](https://img.shields.io/github/stars/frangelbarrera/awesome-ai-agents?style=flat-square)](https://github.com/frangelbarrera/awesome-ai-agents/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/frangelbarrera/awesome-ai-agents?style=flat-square)](https://github.com/frangelbarrera/awesome-ai-agents/commits)
+[![Issues](https://img.shields.io/github/issues/frangelbarrera/awesome-ai-agents?style=flat-square)](https://github.com/frangelbarrera/awesome-ai-agents/issues)
+[![Contributors](https://img.shields.io/github/contributors/frangelbarrera/awesome-ai-agents?style=flat-square)](https://github.com/frangelbarrera/awesome-ai-agents/graphs/contributors)
+[![Repo Size](https://img.shields.io/github/repo-size/frangelbarrera/awesome-ai-agents?style=flat-square)](https://github.com/frangelbarrera/awesome-ai-agents)
 
 A curated index of AI agent frameworks, security tools, and autonomous workflows for 2026. Covers offensive security, OSINT, coding assistants, and emerging protocols — with honest technical assessments.
 
