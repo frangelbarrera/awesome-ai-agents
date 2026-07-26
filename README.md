@@ -301,6 +301,7 @@ Parameterized sets of cases for deterministic measurement.
 | **SWE-bench** | Success ratio on repository merges and bug fixes. | Docker/Py | N/A | CLI | [Link](https://github.com/princeton-nlp/SWE-bench) |
 | **AgentBench** | Synthetic agent verification across 8 types of sandbox environments. | Python | N/A | CLI | [Link](https://github.com/THUDM/AgentBench) |
 | **WebArena** | Automated interactivity score across 4 cloned web microservices. | Docker/TS | N/A | CLI | [Link](https://github.com/web-arena-x/webarena) |
+| **ClawBench** | Live-site browser-agent benchmark with 283 V1/V2 tasks and five-layer execution traces. | Python/Docker | N/A | CLI | [Link](https://github.com/TIGER-AI-Lab/ClawBench) |
 
 ---
 
