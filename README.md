@@ -203,6 +203,7 @@ Privacy-first agents running entirely on local hardware without cloud API depend
 | **LM Studio** | Desktop GUI for discovering, downloading, and running local LLMs with agent-compatible chat completions API. | TypeScript/C++ | Local Inference | App/Web | [Link](https://lmstudio.ai/) |
 | **llama.cpp** | Minimal C/C++ inference engine for running LLaMA models on consumer hardware with GGUF quantization. | C/C++ | Local Inference | CLI | [Link](https://github.com/ggml-org/llama.cpp) |
 | **Hivekeep** | Self-hosted platform of persistent AI agents that collaborate, build their own tools, and answer over Telegram, Slack, Discord, and Matrix. | TypeScript/Bun/SQLite | Hybrid | Docker | [Link](https://github.com/MarlBurroW/hivekeep) |
+| **Orkas** | Local-first desktop workspace where a Commander decomposes goals and coordinates specialist agents; model calls go only to user-selected providers. | TypeScript/Electron | Hybrid | App | [Link](https://github.com/Orkas-AI/Orkas) |
 
 ---
 ## 11. Advanced Guides, Tips, and Prompts
