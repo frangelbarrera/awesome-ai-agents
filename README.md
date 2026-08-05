@@ -62,6 +62,7 @@ Base infrastructure to build autonomous agents.
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **LangChain** | Graph-based routing for NLP operations. Executes abstraction wrappers over proprietary REST APIs and local inferences. | Python/TS | Hybrid | Library | [Link](https://github.com/langchain-ai/langchain) |
 | **LangGraph** | Stateful multi-actor orchestrator mapping iterative nodes via Directed Cyclic Graphs (DCGs) with check-pointing. | Python/TS | Hybrid | Library | [Link](https://github.com/langchain-ai/langgraph) |
+| **LightAgent** | Lightweight Python agent framework with tool calling, memory, MCP/SSE integration, deterministic workflows, and LightSwarm collaboration. | Python | Hybrid | Library | [Link](https://github.com/wanxingai/LightAgent) |
 | **CrewAI** | Role-delegated DAG executor orchestrating task arrays through inter-agent message passing and memory state sharing. | Python | Hybrid | Library | [Link](https://github.com/crewAIInc/crewAI) |
 | **AutoGen** | Multi-agent converse framework utilizing socket-based RPC loops for distributed execution safely sandboxed in Docker. | Python | Hybrid | Web UI | [Link](https://github.com/microsoft/autogen) |
 | **MetaGPT** | Waterfall SOP emulator mapping standard operational procedures to agent hierarchies for complex codebase iteration. | Python | Hybrid | CLI | [Link](https://github.com/geekan/MetaGPT) |
