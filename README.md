@@ -56,6 +56,8 @@ To ensure clarity across all repository tables, we classify tools using the foll
 ---
 
 ## 1. AI Agent Frameworks
+
+- [Clickyy](https://github.com/jayamitkatariya/clickyyy) - Shake your cursor to summon an AI agent that sees your screen and clicks, types, drags, and acts for you on macOS. Open-source, MIT.
 Base infrastructure to build autonomous agents.
 
 | Repository | Description | Stack | Engine | Deployment | Link |
