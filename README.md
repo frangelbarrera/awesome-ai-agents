@@ -92,6 +92,7 @@ Development, review, and scaling of source code managed by AI.
 | **Tabby** | Rust-optimized inference engine providing low-latency FIM (Fill-In-the-Middle) payload processing for code completion. | Rust/Docker | Local Inference | Docker | [Link](https://github.com/TabbyML/tabby) |
 | **fractal** | Hierarchical coding-agent runtime executing recursive loops in per-node Git worktrees with persistent SQLite state and configurable iteration, depth, child, cost, and time limits. | Python | API-based | CLI | [Link](https://github.com/plasma-ai/fractal) |
 | **Atomic Agent** | Coding and agentic runtime running open-weight models entirely on the local machine through a llama.cpp fork, with no account or API key required. Ships 56 built-in tools (browser, filesystem, git, memory, vision), MCP support, and a five-layer local memory system. Currently a developer preview: APIs, commands, and config are still moving. | TypeScript | Local Inference | CLI | [Link](https://github.com/AtomicBot-ai/atomic-agent) |
+| **CodePilot** | Embeddable Python runtime for autonomous coding agent with ReAct execution, filesystem, terminal, MCP and Python tools. Uses text based code-as-interface protocol rather than native JSON tool calling. | Python | Hybrid | Library | [Link](https://github.com/Jahanzeb-git/codepilot)
 
 ---
 
