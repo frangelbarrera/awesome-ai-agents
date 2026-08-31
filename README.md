@@ -71,6 +71,7 @@ Base infrastructure to build autonomous agents.
 | **Camel-AI** | Sociodynamic role-playing simulator executing prompt-based adversarial networks through isolated inference channels. | Python | Hybrid | Library | [Link](https://github.com/camel-ai/camel) |
 | **SmolAgents** | Minimal dependency wrapper supporting local safetensors parsing and direct execution of inline python tools. | Python | Hybrid | Library | [Link](https://github.com/huggingface/smolagents) |
 | **SuperAGI** | Dockerized scalable infrastructure supporting distributed concurrent agent workers and shared vector store backends. | Docker/Python | Hybrid | Web UI | [Link](https://github.com/TransformerOptimus/SuperAGI) |
+| **SandBase Harness** | Self-hosted runtime for AI coding agents with isolated workspaces, policy-gated tool execution, MCP support, and auditable task receipts. | TypeScript/Docker | Hybrid | Docker | [Link](https://github.com/sandbaseai/sandbase-harness) |
 
 ---
 
