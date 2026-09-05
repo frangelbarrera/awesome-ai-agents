@@ -148,6 +148,7 @@ Multimodal interactors for graphical interfaces via mouse and keyboard clicks.
 | **Self-Operating Computer** | Mouse and keyboard management through multimodal models. | Python | API-based | CLI | [Link](https://github.com/othersideai/self-operating-computer) |
 | **Agent S** | Asynchronous progressive processing for complex OS tasks. | Python | Hybrid | CLI | [Link](https://github.com/simular-ai/agent-s) |
 | **Browser-use** | Direct interface between LLMs and web browser instances. | Python | API-based | CLI | [Link](https://github.com/browser-use/browser-use) |
+| **Agent QA** | Natural-language web, Android, and iOS UI testing with execution memory; source-available under FSL-1.1-ALv2. | TypeScript | Hybrid | CLI / Web UI | [Link](https://github.com/vostride/agent-qa) |
 | **CUA** | Desktop container simulation environment. | Docker/Py | Local Inference | Docker | [Link](https://github.com/trycua/cua) |
 | **Bytebot** | Control of containers with natural language commands. | Python | Hybrid | Docker | [Link](https://github.com/bytebot-ai/bytebot) |
 | **Agent-Desktop** | Structured native adapter for GUI applications. | Rust | Local Inference | CLI | [Link](https://github.com/lahfir/agent-desktop) |
