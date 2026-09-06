@@ -71,6 +71,7 @@ Base infrastructure to build autonomous agents.
 | **Camel-AI** | Sociodynamic role-playing simulator executing prompt-based adversarial networks through isolated inference channels. | Python | Hybrid | Library | [Link](https://github.com/camel-ai/camel) |
 | **SmolAgents** | Minimal dependency wrapper supporting local safetensors parsing and direct execution of inline python tools. | Python | Hybrid | Library | [Link](https://github.com/huggingface/smolagents) |
 | **SuperAGI** | Dockerized scalable infrastructure supporting distributed concurrent agent workers and shared vector store backends. | Docker/Python | Hybrid | Web UI | [Link](https://github.com/TransformerOptimus/SuperAGI) |
+| **SandBase Harness** | Self-hosted runtime for AI coding agents with isolated workspaces, policy-gated tool execution, MCP support, and auditable task receipts. | TypeScript/Docker | Hybrid | Docker | [Link](https://github.com/sandbaseai/sandbase-harness) |
 
 ---
 
@@ -85,7 +86,7 @@ Development, review, and scaling of source code managed by AI.
 | **Continue** | IDE proxy layer routing context payloads and FIM requests to strictly configured local/remote inference endpoints. | TypeScript | Hybrid | IDE Extension | [Link](https://github.com/continuedev/continue) |
 | **SWE-agent** | Automated patching daemon mapping GitHub issues to local repository diffs utilizing isolated bash evaluation. | Python | Hybrid | CLI | [Link](https://github.com/princeton-nlp/SWE-agent) |
 | **GPT-Engineer** | Scaffolding compiler converting high-level markdown specs to fully initialized workspaces via sequential AST generation. | Python | API-based | CLI | [Link](https://github.com/gpt-engineer-org/gpt-engineer) |
-| **Hephaestus** | Local-first runtime routing Claude Code, Codex, and Cursor agent packages through MCP/A2A gates. | Python | Hybrid | CLI | [Link](https://github.com/agentlas-ai/Hephaestus) |
+| **Agentlas OS** | Local-first agent OS for portable agent teams, cross-host orchestration, MCP/A2A, and verification gates. | Python | Hybrid | CLI | [Link](https://github.com/agentlas-ai/Agentlas-OS) |
 | **Cline** | IDE-embedded background worker interacting with the Language Server Protocol and filesystem watchdogs for code mutating. | TypeScript | Hybrid | IDE Extension | [Link](https://github.com/cline/cline) |
 | **Mentat** | CLI abstraction operating over raw file streams and repository graphs for cross-file variable reference propagation. | Python | Hybrid | CLI | [Link](https://github.com/Mentat-AI/mentat) |
 | **Plandex** | Go-based background orchestrator executing iterative refactoring tasks through detached daemon processes and git tracking. | Go | Hybrid | CLI | [Link](https://github.com/plandex-ai/plandex) |
@@ -93,6 +94,7 @@ Development, review, and scaling of source code managed by AI.
 | **fractal** | Hierarchical coding-agent runtime executing recursive loops in per-node Git worktrees with persistent SQLite state and configurable iteration, depth, child, cost, and time limits. | Python | API-based | CLI | [Link](https://github.com/plasma-ai/fractal) |
 | **Atomic Agent** | Coding and agentic runtime running open-weight models entirely on the local machine through a llama.cpp fork, with no account or API key required. Ships 56 built-in tools (browser, filesystem, git, memory, vision), MCP support, and a five-layer local memory system. Currently a developer preview: APIs, commands, and config are still moving. | TypeScript | Local Inference | CLI | [Link](https://github.com/AtomicBot-ai/atomic-agent) |
 | **YYLO** | Command-line orchestrator for coding agents, repeatable workflows, and receipt-backed repository changes. Each task freezes the protected target SHA and runs in a dedicated branch/worktree behind typed task, validation, merge, and release-readiness boundaries; the merge queue owns risk-based review. Installs via npm as @yylo/cli and orchestrates Pi and Codex subagents. | Python/TS | API-based | CLI | [Link](https://github.com/yylo-dev/yylo) |
+| **CodePilot** | Embeddable Python runtime for autonomous coding agent with ReAct execution, filesystem, terminal, MCP and Python tools. Uses text based code-as-interface protocol rather than native JSON tool calling. | Python | Hybrid | Library | [Link](https://github.com/Jahanzeb-git/codepilot) |
 
 ---
 
@@ -149,6 +151,7 @@ Multimodal interactors for graphical interfaces via mouse and keyboard clicks.
 | **Self-Operating Computer** | Mouse and keyboard management through multimodal models. | Python | API-based | CLI | [Link](https://github.com/othersideai/self-operating-computer) |
 | **Agent S** | Asynchronous progressive processing for complex OS tasks. | Python | Hybrid | CLI | [Link](https://github.com/simular-ai/agent-s) |
 | **Browser-use** | Direct interface between LLMs and web browser instances. | Python | API-based | CLI | [Link](https://github.com/browser-use/browser-use) |
+| **Agent QA** | Natural-language web, Android, and iOS UI testing with execution memory; source-available under FSL-1.1-ALv2. | TypeScript | Hybrid | CLI / Web UI | [Link](https://github.com/vostride/agent-qa) |
 | **CUA** | Desktop container simulation environment. | Docker/Py | Local Inference | Docker | [Link](https://github.com/trycua/cua) |
 | **Bytebot** | Control of containers with natural language commands. | Python | Hybrid | Docker | [Link](https://github.com/bytebot-ai/bytebot) |
 | **Agent-Desktop** | Structured native adapter for GUI applications. | Rust | Local Inference | CLI | [Link](https://github.com/lahfir/agent-desktop) |
