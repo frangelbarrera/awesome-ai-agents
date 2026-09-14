@@ -311,6 +311,7 @@ Parameterized sets of cases for deterministic measurement.
 | **AgentBench** | Synthetic agent verification across 8 types of sandbox environments. | Python | N/A | CLI | [Link](https://github.com/THUDM/AgentBench) |
 | **WebArena** | Automated interactivity score across 4 cloned web microservices. | Docker/TS | N/A | CLI | [Link](https://github.com/web-arena-x/webarena) |
 | **ClawBench** | Live-site browser-agent benchmark with 283 V1/V2 tasks and five-layer execution traces. | Python/Docker | N/A | CLI | [Link](https://github.com/TIGER-AI-Lab/ClawBench) |
+| **YYLO Benchmark** | Every candidate receives a dedicated fresh repository; evaluator profiles support deterministic commands and configurable LLM judges, and retained receipts, manifests, terminals, and evaluator provenance form one hash-verified evidence chain. | TypeScript/Node | N/A | CLI | [Link](https://github.com/yylo-dev/yylo-benchmark) |
 
 ---
 
