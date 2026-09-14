@@ -262,8 +262,9 @@ Optimized semantic processing for professional and regulated fields.
 ### Finance and Investment
 | Project | Description | Stack | Engine | Deployment | Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **FinRobot** | Ingestion and quantitative analysis of corporate documents. | Python | API-based | Library | [Link](https://github.com/ai4finance-foundation/finrobot) |
 | **Dexter** | Iterative balance sheet research via reflection chains. | Python | API-based | CLI | [Link](https://github.com/virattt/dexter) |
+| **FinRobot** | Ingestion and quantitative analysis of corporate documents. | Python | API-based | Library | [Link](https://github.com/ai4finance-foundation/finrobot) |
+| **Solgrok** | Autonomous Solana creator-ops agent for Bags.fm token promotion, fee claim/sweep, and scheduled outreach routines. | TypeScript | API-based | Web UI | [Link](https://github.com/LMajster/sgrok) |
 | **TradingAgents** | Distributed environment for transaction simulation. | Python | Hybrid | Docker | [Link](https://tradingagents-ai.github.io/) |
 
 ### Medicine and Healthcare
