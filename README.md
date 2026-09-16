@@ -197,6 +197,7 @@ Tracing, monitoring, and debugging agent executions in production.
 | **Arize Phoenix** | Open-source AI observability engine for tracing LLM calls, evaluating RAG quality, and detecting hallucinations. | Python | Local Inference | Jupyter | [Link](https://github.com/Arize-ai/phoenix) |
 | **Helicone** | Open-source proxy layer logging LLM requests with caching, rate limiting, and cost analytics dashboards. | TypeScript | API-based | Web UI | [Link](https://github.com/Helicone/helicone) |
 | **Braintrust** | Evaluation framework for scoring agent outputs against golden datasets with automatic regression detection. | TypeScript | API-based | Web UI | [Link](https://github.com/braintrustdata/braintrust-sdk) |
+| **Self-Auditing Agent** | Public audit log for an agent's own claims: each recorded conclusion links a runnable command a third party can execute, so the process is reviewable rather than just its output. Ships gatecheck, a mutation tester that runs 175 mutations against the project's own validator and reports the ones it fails to catch. | Python | N/A | CLI | [Link](https://github.com/simin-yuan/self-auditing-agent) |
 
 ---
 
