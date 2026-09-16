@@ -68,6 +68,7 @@ Base infrastructure to build autonomous agents.
 | **MetaGPT** | Waterfall SOP emulator mapping standard operational procedures to agent hierarchies for complex codebase iteration. | Python | Hybrid | CLI | [Link](https://github.com/geekan/MetaGPT) |
 | **AutoGPT** | Recursive heuristic loop agent generating execution plans with local filesystem caching and vector embeddings. | Python/Docker | Hybrid | Web UI | [Link](https://github.com/Significant-Gravitas/AutoGPT) |
 | **Dify** | Backend-as-a-Service architecture unifying API gateways for LLM requests with embedded vector DB routing. | Docker/Python | Hybrid | Web UI | [Link](https://github.com/langgenius/dify) |
+| **Bifrost** | Open-source Go gateway exposing an OpenAI-compatible API for multi-provider routing, fallbacks, MCP, and request observability. | Go | Hybrid | Docker | [Link](https://github.com/maximhq/bifrost) |
 | **Camel-AI** | Sociodynamic role-playing simulator executing prompt-based adversarial networks through isolated inference channels. | Python | Hybrid | Library | [Link](https://github.com/camel-ai/camel) |
 | **SmolAgents** | Minimal dependency wrapper supporting local safetensors parsing and direct execution of inline python tools. | Python | Hybrid | Library | [Link](https://github.com/huggingface/smolagents) |
 | **SuperAGI** | Dockerized scalable infrastructure supporting distributed concurrent agent workers and shared vector store backends. | Docker/Python | Hybrid | Web UI | [Link](https://github.com/TransformerOptimus/SuperAGI) |
