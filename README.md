@@ -298,6 +298,7 @@ Semantic hypervectorial storage persisting across context limitations.
 | **Graphiti** | Entity compilation into dynamic graph and relation meshes. | Python | API-based | Library | [Link](https://github.com/getzep/graphiti) |
 | **AgentMemory** | Indexable segmented vectors focused on code dependencies. | Python | Local Inference | CLI | [Link](https://github.com/rohitg00/agentmemory) |
 | **Tree Ring Memory** | Local-first memory lifecycle layer with scoped recall, forgetting, and consolidation. | Rust/SQLite | N/A | CLI | [Link](https://github.com/TerminallyLazy/Tree-Ring-Memory) |
+| **ContextStream** | Hosted MCP for shared project context across AI coding agents: code search, decisions, lessons, and plans. | Rust | API-based | Web UI | [Link](https://github.com/contextstream/mcp-server) |
 
 ---
 
