@@ -197,6 +197,7 @@ Tracing, monitoring, and debugging agent executions in production.
 | **Arize Phoenix** | Open-source AI observability engine for tracing LLM calls, evaluating RAG quality, and detecting hallucinations. | Python | Local Inference | Jupyter | [Link](https://github.com/Arize-ai/phoenix) |
 | **Helicone** | Open-source proxy layer logging LLM requests with caching, rate limiting, and cost analytics dashboards. | TypeScript | API-based | Web UI | [Link](https://github.com/Helicone/helicone) |
 | **Braintrust** | Evaluation framework for scoring agent outputs against golden datasets with automatic regression detection. | TypeScript | API-based | Web UI | [Link](https://github.com/braintrustdata/braintrust-sdk) |
+| **OrcaReplay** | Local record-and-replay proxy for agent runs: captures provider traffic (prompts, tool calls, responses) into a trace and replays a run offline for deterministic debugging and regression diffs. | TypeScript/Node | Hybrid | CLI | [Link](https://github.com/Continuum-AI-Corp/OrcaReplay) |
 
 ---
 
