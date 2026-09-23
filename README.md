@@ -197,6 +197,7 @@ Tracing, monitoring, and debugging agent executions in production.
 | **Arize Phoenix** | Open-source AI observability engine for tracing LLM calls, evaluating RAG quality, and detecting hallucinations. | Python | Local Inference | Jupyter | [Link](https://github.com/Arize-ai/phoenix) |
 | **Helicone** | Open-source proxy layer logging LLM requests with caching, rate limiting, and cost analytics dashboards. | TypeScript | API-based | Web UI | [Link](https://github.com/Helicone/helicone) |
 | **Braintrust** | Evaluation framework for scoring agent outputs against golden datasets with automatic regression detection. | TypeScript | API-based | Web UI | [Link](https://github.com/braintrustdata/braintrust-sdk) |
+| **antiburn** | Local desktop app that checks coding agent sessions for common causes of token burn: sessions too deep, overpowered subagents, broken caching, and unused MCP servers, skills, and tools. Supports Claude Code, Codex, Cursor, Copilot, Pi, and more. | Rust/Tauri | N/A | App | [Link](https://github.com/antiburn/antiburn) |
 
 ---
 
