@@ -144,6 +144,7 @@ Extraction, filtering, and summarization of information from public sources.
 | **Awesome Cybersecurity Agentic AI** | Compilation of repositories and passive analysis schemas for OSINT sources. | Markdown | N/A | Document | [Link](https://github.com/raphabot/awesome-cybersecurity-agentic-ai) |
 | **Ubikron Graph Architecture** | Correlation of intelligence entities via graph databases. Maps iterative B2B relationships. | Graph/Neo4j | Local Inference | Web UI | [Link](https://github.com/ubikron/Awesome-AI-OSINT) |
 | **Awesome OSINT Digester** | Comprehensive directory of OSINT sources for manual intelligence gathering and agentic ingestion. | Python | Hybrid | CLI | [Link](https://github.com/jivoi/awesome-osint) |
+| **Vend API Merchant** | Pay-per-call web-intelligence API (web search, page extract, domain info, geoip, link check) settled in feeless nano (XNO) via x402 — no API key, no cap limits, lets an OSINT/research agent pull clean data without proxy rotation. | API | API-based | Web UI | [Link](https://extract.paypercall.dev) |
 
 ---
 
