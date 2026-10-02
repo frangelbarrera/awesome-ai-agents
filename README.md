@@ -399,3 +399,7 @@ Automated systems that ingest chaotic data environments, generate complex SQL/Py
 Contributions are welcome! Please read the [Contributing Guide](CONTRIBUTING.md) for format requirements and submission guidelines.
 
 **Quick start:** Fork → Add tool to correct section → Verify link → Submit PR
+
+## Curation and safety
+
+Entries are reviewed for relevance, link validity, and safe authorized use. Links and projects can change after review; verify a project’s current ownership, license, and security posture before using it. Report compromised or malicious entries privately. See [SECURITY.md](SECURITY.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
