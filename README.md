@@ -187,6 +187,7 @@ Interoperability protocols, tool-use specifications, and agent communication sta
 | **Agent Protocol** | Unified API standard by AI Engineer Foundation defining a consistent REST interface for agent creation, execution, and task management. | Python/TS | N/A | Library | [Link](https://github.com/AI-Engineer-Foundation/AgentProtocol) |
 | **OpenAI Realtime API** | WebSocket-based specification for low-latency streaming audio and multimodal agent interactions. | Python/TS | API-based | API | [Link](https://platform.openai.com/docs/api-reference/realtime) |
 | **LangChain Tool Standard** | Standardized tool interface allowing cross-framework tool sharing between LangChain, CrewAI, AutoGen, and other agent runtimes. | Python/TS | Hybrid | Library | [Link](https://python.langchain.com/docs/concepts/tools/) |
+| **Clarity** | Base-mainnet x402 research API: free discovery plus paid short research reports ($2 USDC) and chat ($0.001 USDC) for external payers. | HTTP/JSON | API-based | Web UI | [Link](https://agent-tools.cloud/services/desktop-o99r0sf-tail935fba-ts-net-sub899) |
 
 ---
 
