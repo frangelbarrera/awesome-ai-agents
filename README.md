@@ -242,6 +242,7 @@ Agents integrated into enterprise pipelines, DevSecOps workflows, and corporate 
 | **GitLab Duo Agent Platform** | Agentic ecosystem integration in native CI/CD cycles. | Integration | API-based | Web UI | [Link](https://about.gitlab.com/gitlab-duo-agent-platform/) |
 | **COSMOS CI Agent** | Intelligent dependency and trace analyzer in GitLab repositories. | Python | API-based | Docker | [Link](https://gitlab.com/explore/ai-catalog) |
 | **Virtual Company Kernel** | Corporate structural role simulation with pure AI. | Python | Hybrid | CLI | [Link](https://gitlab.com/borrowbrain/virtual-company-kernel) |
+| **Bunkhouse** | Open-source AI employees for main-street business — multitenant company inbox + org chart of agents. | TypeScript | Hybrid | Docker | [Link](https://github.com/braedonsaunders/bunkhouse) |
 | **Ray Agentic Core** | Base layer for distributed routing, state management, and inference execution across multi-agent node clusters. | C++/Python | Hybrid | Docker | [Link](https://github.com/ray-project/ray) |
 | **Bloop AI** | Real-time active cloud container debugger and codebase navigational agent for distributed platforms. | TS/Rust | API-based | Web UI | [Link](https://github.com/BloopAI/bloop) |
 
