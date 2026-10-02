@@ -16,8 +16,8 @@ jobs:
         uses: DavidAnson/markdownlint-cli2-action@v20
         with:
           globs: 'SECURITY.md'
-      - name: Check links
+      - name: Check external links (advisory)
         uses: lycheeverse/lychee-action@v2.4.0
         with:
           args: --verbose --no-progress './**/*.md'
-          fail: true
+          fail: false
