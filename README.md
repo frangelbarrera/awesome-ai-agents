@@ -115,6 +115,7 @@ Integration of agents with APIs, nodes, and conditional process flows.
 | **Bee Agent Framework** | Enterprise-grade SDK enforcing hardened guardrails, strict data plane routing, and audit-logging compliance. | TypeScript | Hybrid | Library | [Link](https://github.com/i-am-bee/bee-agent-framework) |
 | **Awesome LLM Apps** | Technical boilerplate and infrastructure definitions for production RAG microservices and scalable vector integrations. | Markdown | N/A | Document | [Link](https://github.com/Shubhamsaboo/awesome-llm-apps) |
 | **Agent Coordinator** | Per-user Codex skill that runs bounded dependency-graph work inline or through optional specialists, stores revisioned local state, rejects concurrent live work with overlapping declared write scopes, reconciles uncertain operations before retry, and reruns authored closeout checks. | Python/Codex Skill | API-based | CLI | [Link](https://github.com/alanhoff/agent-coordinator) |
+| **Tale** | Shared project workspace with manager-agent task delegation, persistent sandboxes, and human review of reports and delivered files. | TypeScript | Hybrid | Web UI / Docker | [Link](https://github.com/tale-project/tale) |
 
 ---
 
