@@ -377,6 +377,7 @@ Frameworks and pipelines optimized for low-latency voice-to-voice communication,
 | **Vapi** | End-to-end voice AI platform abstraction allowing integration of interrupting, context-aware audio agents natively via SIP/WebRTC. | TypeScript | API-based | Web/App | [Link](https://github.com/VapiAI) |
 | **OmniChat** | Real-time voice agent framework supporting full-duplex audio with interruption handling and emotion detection. | Python | API-based | Docker | [Link](https://github.com/opengvlab/omnichat) |
 | **Retell AI** | Voice agent API with turn-taking logic, keyword detection, and custom voice cloning for agent personas. | TypeScript | API-based | API | [Link](https://github.com/RetellAI) |
+| [AI Group Call](https://aigroupcall.app) | Facilitate a live AI panel: agents answer one at a time, build on each other, and leave notes and action items after the call. | - | - | - | https://aigroupcall.app |
 
 ---
 
