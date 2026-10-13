@@ -115,6 +115,7 @@ Integration of agents with APIs, nodes, and conditional process flows.
 | **Bee Agent Framework** | Enterprise-grade SDK enforcing hardened guardrails, strict data plane routing, and audit-logging compliance. | TypeScript | Hybrid | Library | [Link](https://github.com/i-am-bee/bee-agent-framework) |
 | **Awesome LLM Apps** | Technical boilerplate and infrastructure definitions for production RAG microservices and scalable vector integrations. | Markdown | N/A | Document | [Link](https://github.com/Shubhamsaboo/awesome-llm-apps) |
 | **Agent Coordinator** | Per-user Codex skill that runs bounded dependency-graph work inline or through optional specialists, stores revisioned local state, rejects concurrent live work with overlapping declared write scopes, reconciles uncertain operations before retry, and reruns authored closeout checks. | Python/Codex Skill | API-based | CLI | [Link](https://github.com/alanhoff/agent-coordinator) |
+| **Agent Barn** | Open-source (Apache-2.0) control plane for AI agent teams: chat front ends in Slack, Teams, Telegram, Discord and email, audit logging of conversations, tool calls and costs; runs agent runtimes like Hermes and OpenClaw on your own Kubernetes cluster via Helm. | Python | API-based | Kubernetes (Helm) | [Link](https://github.com/aai-labs/agent-barn) |
 
 ---
 
