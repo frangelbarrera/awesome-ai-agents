@@ -117,6 +117,7 @@ Integration of agents with APIs, nodes, and conditional process flows.
 | **Bee Agent Framework** | Enterprise-grade SDK enforcing hardened guardrails, strict data plane routing, and audit-logging compliance. | TypeScript | Hybrid | Library | [Link](https://github.com/i-am-bee/bee-agent-framework) |
 | **Awesome LLM Apps** | Technical boilerplate and infrastructure definitions for production RAG microservices and scalable vector integrations. | Markdown | N/A | Document | [Link](https://github.com/Shubhamsaboo/awesome-llm-apps) |
 | **Agent Coordinator** | Per-user Codex skill that runs bounded dependency-graph work inline or through optional specialists, stores revisioned local state, rejects concurrent live work with overlapping declared write scopes, reconciles uncertain operations before retry, and reruns authored closeout checks. | Python/Codex Skill | API-based | CLI | [Link](https://github.com/alanhoff/agent-coordinator) |
+| **NeverApply MCP** | Proprietary hosted MCP server (Streamable HTTP, OAuth 2.1 with PKCE) with 15 job-search tools: job search and matching, resume tailoring, screening answers, interview prep, and job applications that each wait for explicit user approval; account required, free and paid plans. | Hosted MCP | API-based | Web UI | [Link](https://neverapply.co/features/mcp) |
 
 ---
 
