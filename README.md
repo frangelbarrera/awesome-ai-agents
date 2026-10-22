@@ -292,6 +292,7 @@ Optimized semantic processing for professional and regulated fields.
 ### Marketing and Advertising
 | Project | Description | Stack | Engine | Deployment | Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| **BacklinkGenie** | Hosted MCP server for a link-building outreach agent: Claude, ChatGPT or Cursor review and approve pitches to editors, answer replies, import posts to pitch, and track live backlinks. | MCP (hosted) | API-based | Web UI | [Link](https://github.com/nikunjness/backlinkgenie-mcp) |
 | **LogNorm** | Hosted MCP server that hands a site's SEO and AI-visibility backlog (audits, fixes, content drafts) to Claude Code, Codex and Cursor. | MCP (hosted) | API-based | CLI | [Link](https://lognorm.com) |
 | **NotFair** | Claude Code skill set for SEO, GEO, Google Ads, and Meta Ads. Connects to live account data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP to execute audits, keyword research, creative analysis, and bid management. | TypeScript | API-based | CLI | [Link](https://github.com/nowork-studio/NotFair) |
 
