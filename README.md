@@ -262,6 +262,7 @@ Portals to compare frameworks and hosted agents.
 | **Hugging Face Agents** | Native integration and validated list of autonomous models. | Web | N/A | Web UI | [Link](https://huggingface.co/blog/tegridydev/open-source-ai-agents-directory) |
 | **Glama MCP Directory** | Curated directory of MCP servers and AI agent tools with real-time availability checks. | Web | N/A | Web UI | [Link](https://glama.ai/mcp/servers) |
 | **Smithery** | Agent tool registry and marketplace enabling one-click installation of MCP-compatible agent extensions. | Web | N/A | Web UI | [Link](https://smithery.ai/) |
+| **uAgentKit** | Source-linked AI product profiles, task guides, and comparisons with access requirements, permission boundaries, and documented limitations. | Web | N/A | Web UI | [Link](https://uagentkit.com) |
 
 ---
 
