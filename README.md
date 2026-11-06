@@ -350,6 +350,7 @@ Frameworks and pipelines designed to enforce policy constraints, prevent prompt 
 | **Garak** | Systematic vulnerability scanner probing for hallucination vectors and jailbreak surfaces in LLM agents. | Python | API-based | CLI | [Link](https://github.com/leondz/garak) |
 | **Lakera Guard** | Comprehensive API-based security middleware blocking active execution attacks on agentic APIs. | Python | API-based | API | [Link](https://github.com/lakeraai) |
 | **Ironheights** | Static pre-install scanner for agent skill folders (SKILL.md and bundled files) that flags prompt injection, hidden text, credential reads, remote-exec installs and persistence, with integrity baselines and SARIF output. Rules run offline; optional LLM review via Ollama or an OpenAI-compatible API. | TypeScript/Node.js | Hybrid | CLI | [Link](https://github.com/Frank-Masciopinto/ironheights) |
+| **HOL Guard** | Local-first policy and approval controls for AI coding agents, evaluating shell, secrets and MCP changes before execution. | Python | N/A | CLI | [Link](https://hol.org/guard) |
 
 ---
 
