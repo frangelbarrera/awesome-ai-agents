@@ -296,6 +296,7 @@ Optimized semantic processing for professional and regulated fields.
 | **LogNorm** | Hosted MCP server that hands a site's SEO and AI-visibility backlog (audits, fixes, content drafts) to Claude Code, Codex and Cursor. | MCP (hosted) | API-based | CLI | [Link](https://lognorm.com) |
 | **NotFair** | Claude Code skill set for SEO, GEO, Google Ads, and Meta Ads. Connects to live account data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP to execute audits, keyword research, creative analysis, and bid management. | TypeScript | API-based | CLI | [Link](https://github.com/nowork-studio/NotFair) |
 | **Robot Speed** | Hosted SEO and AI-visibility MCP. OAuth remote exposes 39 tools; a rate-limited, read-only no-auth endpoint exposes 12 ([docs](https://www.robot-speed.com/mcp)). EU-hosted (Supabase + Vercel); read-only except 4 write tools. Submitted by the publisher. | Remote MCP (MIT) | API-based | Web UI | [Link](https://github.com/robot-speed/mcp) |
+| **Datacircle** | Hosted MCP server that lists the GTM APIs and finds their plans by API, provider or price. Open to anyone, no key. | MCP (hosted) | N/A | Library | [Link](https://datacircle.dev) |
 
 ---
 
