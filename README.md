@@ -354,6 +354,7 @@ Frameworks and pipelines designed to enforce policy constraints, prevent prompt 
 | **Lakera Guard** | Comprehensive API-based security middleware blocking active execution attacks on agentic APIs. | Python | API-based | API | [Link](https://github.com/lakeraai) |
 | **Ironheights** | Static pre-install scanner for agent skill folders (SKILL.md and bundled files) that flags prompt injection, hidden text, credential reads, remote-exec installs and persistence, with integrity baselines and SARIF output. Rules run offline; optional LLM review via Ollama or an OpenAI-compatible API. | TypeScript/Node.js | Hybrid | CLI | [Link](https://github.com/Frank-Masciopinto/ironheights) |
 | **HOL Guard** | Local-first policy and approval controls for AI coding agents, evaluating shell, secrets and MCP changes before execution. | Python | N/A | CLI | [Link](https://hol.org/guard) |
+| **npmscan** | Pre-install supply-chain check for npm packages that agents call over MCP: flags confirmed malware (including versions npm removed), OSV/GitHub/NVD advisories, maintainer takeovers and install scripts, and audits package.json, lockfiles and SBOMs. Ships read-only agent skills for Claude Code, Codex and Gemini CLI; the server is hosted, no API key. | MCP | N/A | API | [Link](https://github.com/salemalem/npmscan-mcp-plugin) |
 
 ---
 
