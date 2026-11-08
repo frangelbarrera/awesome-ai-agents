@@ -73,6 +73,7 @@ Base infrastructure to build autonomous agents.
 | **SmolAgents** | Minimal dependency wrapper supporting local safetensors parsing and direct execution of inline python tools. | Python | Hybrid | Library | [Link](https://github.com/huggingface/smolagents) |
 | **SuperAGI** | Dockerized scalable infrastructure supporting distributed concurrent agent workers and shared vector store backends. | Docker/Python | Hybrid | Web UI | [Link](https://github.com/TransformerOptimus/SuperAGI) |
 | **SandBase Harness** | Self-hosted runtime for AI coding agents with isolated workspaces, policy-gated tool execution, MCP support, and auditable task receipts. | TypeScript/Docker | Hybrid | Docker | [Link](https://github.com/sandbaseai/sandbase-harness) |
+| **AGBoss** | Open-source Spring-style TypeScript framework on LangGraph with constructor dependency injection, compile-time workflow verification (agboss check), LIFO action compensation sagas, FinOps budgets, PII masking, and MCP/RAG/A2A support. | TypeScript | Hybrid | Library | [Link](https://github.com/agbossjs/agboss) |
 
 ---
 
