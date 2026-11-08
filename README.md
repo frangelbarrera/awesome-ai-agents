@@ -98,6 +98,7 @@ Development, review, and scaling of source code managed by AI.
 | **YYLO** | Command-line orchestrator for coding agents, repeatable workflows, and receipt-backed repository changes. Each task freezes the protected target SHA and runs in a dedicated branch/worktree behind typed task, validation, merge, and release-readiness boundaries; the merge queue owns risk-based review. Installs via npm as @yylo/cli and orchestrates Pi and Codex subagents. | Python/TS | API-based | CLI | [Link](https://github.com/yylo-dev/yylo) |
 | **CodePilot** | Embeddable Python runtime for autonomous coding agent with ReAct execution, filesystem, terminal, MCP and Python tools. Uses text based code-as-interface protocol rather than native JSON tool calling. | Python | Hybrid | Library | [Link](https://github.com/Jahanzeb-git/codepilot) |
 | **Sillage** | Self-hosted mobile-first web UI that drives the native Claude Code and Codex CLIs on your own machine, with server-side session journals that outlive the client, full-text search across conversations, an IDE panel (files, editor, diffs, terminal), and a board the agents read through its own MCP server. Installable PWA with push. | TypeScript | Hybrid | Web UI / Docker | [Link](https://github.com/MarlBurroW/sillage) |
+| **Zaru** | Terminal agent that runs model-requested tool calls behind per-call permission prompts, re-runs project-declared validator commands until they pass, and logs every step to a JSONL transcript. Pre-alpha, Linux only. | Rust | Hybrid | CLI | [Link](https://github.com/100monkeys-ai/zaru-cli) |
 
 ---
 
