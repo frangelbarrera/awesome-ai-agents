@@ -312,6 +312,7 @@ Semantic hypervectorial storage persisting across context limitations.
 | **AgentMemory** | Indexable segmented vectors focused on code dependencies. | Python | Local Inference | CLI | [Link](https://github.com/rohitg00/agentmemory) |
 | **Tree Ring Memory** | Local-first memory lifecycle layer with scoped recall, forgetting, and consolidation. | Rust/SQLite | N/A | CLI | [Link](https://github.com/TerminallyLazy/Tree-Ring-Memory) |
 | **SoloPup Memory (public beta)** | DeepSeek Harness text-memory plugin with source references, project/global scope, conditions and correction history; lexical recall. | Node.js/JavaScript/SQLite | API-based | Library | [Link](https://github.com/OakcoderX/solopup-memory) |
+| **Cloud Alter Ego** | Remote MCP connector that gives every AI chat your rules, profile and work history, stored as plain Markdown files in your own OneDrive, Google Drive, Dropbox, GitHub or Azure DevOps. | Markdown/MCP | N/A | Web UI | [Link](https://cloudalterego.cafeboon.com) |
 
 ---
 
