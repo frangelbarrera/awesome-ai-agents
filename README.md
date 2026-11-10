@@ -73,6 +73,7 @@ Base infrastructure to build autonomous agents.
 | **SmolAgents** | Minimal dependency wrapper supporting local safetensors parsing and direct execution of inline python tools. | Python | Hybrid | Library | [Link](https://github.com/huggingface/smolagents) |
 | **SuperAGI** | Dockerized scalable infrastructure supporting distributed concurrent agent workers and shared vector store backends. | Docker/Python | Hybrid | Web UI | [Link](https://github.com/TransformerOptimus/SuperAGI) |
 | **SandBase Harness** | Self-hosted runtime for AI coding agents with isolated workspaces, policy-gated tool execution, MCP support, and auditable task receipts. | TypeScript/Docker | Hybrid | Docker | [Link](https://github.com/sandbaseai/sandbase-harness) |
+| **Orbi** | Runs coding agents from labeled GitHub Issues, each in its own isolated worktree on your machine. The model never pushes or merges protected branches; repo access is a fine-grained token scoped to the target repos, and credentials stay local and are redacted from logs and comments. The runner merges only the exact reviewed head after a separate AI review; because the reviewer is itself an AI, GitHub branch protection (required status checks, human approval) is the final boundary. AGPL-3.0, self-hostable. | Python | API-based | Docker/CLI | [Link](https://github.com/orbi-build/orbi) |
 
 ---
 
