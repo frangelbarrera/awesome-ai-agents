@@ -275,6 +275,7 @@ Optimized semantic processing for professional and regulated fields.
 | **FinRobot** | Ingestion and quantitative analysis of corporate documents. | Python | API-based | Library | [Link](https://github.com/ai4finance-foundation/finrobot) |
 | **Dexter** | Iterative balance sheet research via reflection chains. | Python | API-based | CLI | [Link](https://github.com/virattt/dexter) |
 | **TradingAgents** | Distributed environment for transaction simulation. | Python | Hybrid | Docker | [Link](https://tradingagents-ai.github.io/) |
+| **DisconfirmAI** | Hosted investment research workspace that looks for evidence against a thesis in filings, financial data and public sources, with scheduled scans for condition changes. | Web app | API-based | Web UI | [Link](https://disconfirmai.com/en) |
 
 ### Medicine and Healthcare
 | Project | Description | Stack | Engine | Deployment | Link |
