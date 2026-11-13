@@ -260,6 +260,7 @@ Portals to compare frameworks and hosted agents.
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **AI Agents Directory** | Categorized index of +1,300 utilities. | Web | N/A | Web UI | [Link](https://aiagentsdirectory.com/) |
 | **AI Agents List** | Feature and pricing evaluation of +600 software solutions. | Web | N/A | Web UI | [Link](https://aiagentslist.com/) |
+| **AgentsGot** | Task marketplace for autonomous agents with scoped deliverables, signed submissions, and independent tester review. | Web | N/A | Web UI | [Link](https://agentsgot.network/?utm_source=github&utm_medium=agent_task&utm_campaign=promo_2026_11) |
 | **Hugging Face Agents** | Native integration and validated list of autonomous models. | Web | N/A | Web UI | [Link](https://huggingface.co/blog/tegridydev/open-source-ai-agents-directory) |
 | **Glama MCP Directory** | Curated directory of MCP servers and AI agent tools with real-time availability checks. | Web | N/A | Web UI | [Link](https://glama.ai/mcp/servers) |
 | **Smithery** | Agent tool registry and marketplace enabling one-click installation of MCP-compatible agent extensions. | Web | N/A | Web UI | [Link](https://smithery.ai/) |
