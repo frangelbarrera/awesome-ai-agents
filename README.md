@@ -98,6 +98,7 @@ Development, review, and scaling of source code managed by AI.
 | **YYLO** | Command-line orchestrator for coding agents, repeatable workflows, and receipt-backed repository changes. Each task freezes the protected target SHA and runs in a dedicated branch/worktree behind typed task, validation, merge, and release-readiness boundaries; the merge queue owns risk-based review. Installs via npm as @yylo/cli and orchestrates Pi and Codex subagents. | Python/TS | API-based | CLI | [Link](https://github.com/yylo-dev/yylo) |
 | **CodePilot** | Embeddable Python runtime for autonomous coding agent with ReAct execution, filesystem, terminal, MCP and Python tools. Uses text based code-as-interface protocol rather than native JSON tool calling. | Python | Hybrid | Library | [Link](https://github.com/Jahanzeb-git/codepilot) |
 | **Sillage** | Self-hosted mobile-first web UI that drives the native Claude Code and Codex CLIs on your own machine, with server-side session journals that outlive the client, full-text search across conversations, an IDE panel (files, editor, diffs, terminal), and a board the agents read through its own MCP server. Installable PWA with push. | TypeScript | Hybrid | Web UI / Docker | [Link](https://github.com/MarlBurroW/sillage) |
+| **Zaru** | Terminal agent that runs model-requested tool calls behind per-call permission prompts, re-runs project-declared validator commands until they pass, and logs every step to a JSONL transcript. Pre-alpha, Linux only. | Rust | Hybrid | CLI | [Link](https://github.com/100monkeys-ai/zaru-cli) |
 
 ---
 
@@ -117,7 +118,8 @@ Integration of agents with APIs, nodes, and conditional process flows.
 | **Bee Agent Framework** | Enterprise-grade SDK enforcing hardened guardrails, strict data plane routing, and audit-logging compliance. | TypeScript | Hybrid | Library | [Link](https://github.com/i-am-bee/bee-agent-framework) |
 | **Awesome LLM Apps** | Technical boilerplate and infrastructure definitions for production RAG microservices and scalable vector integrations. | Markdown | N/A | Document | [Link](https://github.com/Shubhamsaboo/awesome-llm-apps) |
 | **Agent Coordinator** | Per-user Codex skill that runs bounded dependency-graph work inline or through optional specialists, stores revisioned local state, rejects concurrent live work with overlapping declared write scopes, reconciles uncertain operations before retry, and reruns authored closeout checks. | Python/Codex Skill | API-based | CLI | [Link](https://github.com/alanhoff/agent-coordinator) |
-| **NeverApply MCP** | Proprietary hosted MCP server (Streamable HTTP, OAuth 2.1 with PKCE) with 15 job-search tools: job search and matching, resume tailoring, screening answers, interview prep, and job applications that each wait for explicit user approval; account required, free and paid plans. | Hosted MCP | API-based | Web UI | [Link](https://neverapply.co/features/mcp) |
+| **Agent Barn** | Open-source (Apache-2.0) control plane for AI agent teams: chat front ends in Slack, Teams, Telegram, Discord and email, audit logging of conversations, tool calls and costs; runs agent runtimes like Hermes and OpenClaw on your own Kubernetes cluster via Helm. | Python | API-based | Kubernetes (Helm) | [Link](https://github.com/aai-labs/agent-barn) |
+| **NeverApply MCP** | Proprietary hosted MCP server (Streamable HTTP, OAuth 2.1 with PKCE and dynamic client registration) with 15 job-search tools in three permission tiers. Read: job search works without sign-in; after sign-in it reads the user's profile, matches and application history. Edit: profile, resume upload, saved answers, resume tailoring and interview prep. Apply: needs a separate apply permission plus the user's explicit approval of each application before anything is submitted (an optional send grant can be tied to one assistant). Access can be revoked any time in Settings; account required, free and paid plans. | Hosted MCP | API-based | Web UI | [Link](https://neverapply.co/features/mcp) |
 
 ---
 
@@ -205,6 +207,7 @@ Tracing, monitoring, and debugging agent executions in production.
 | **Braintrust** | Evaluation framework for scoring agent outputs against golden datasets with automatic regression detection. | TypeScript | API-based | Web UI | [Link](https://github.com/braintrustdata/braintrust-sdk) |
 | **antiburn** | Local desktop app that checks coding agent sessions for common causes of token burn: sessions too deep, overpowered subagents, broken caching, and unused MCP servers, skills, and tools. Supports Claude Code, Codex, Cursor, Copilot, Pi, and more. | Rust/Tauri | N/A | App | [Link](https://github.com/antiburn/antiburn) |
 | **OrcaReplay** | Local record-and-replay proxy for agent runs: captures provider traffic (prompts, tool calls, responses) into a trace and replays the run from it without calling the provider again, for deterministic debugging and regression diffs. | TypeScript/Node | Hybrid | CLI | [Link](https://github.com/Continuum-AI-Corp/OrcaReplay) |
+| **Self-Auditing Agent** | Public audit log for an agent's own claims: each recorded conclusion links a runnable command a third party can execute, so the process is reviewable rather than just its output. Ships gatecheck, a mutation tester that runs 175 mutations against the project's own validator and reports the ones it fails to catch. | Python | N/A | CLI | [Link](https://github.com/simin-yuan/self-auditing-agent) |
 
 ---
 
@@ -295,6 +298,7 @@ Optimized semantic processing for professional and regulated fields.
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **LogNorm** | Hosted MCP server that hands a site's SEO and AI-visibility backlog (audits, fixes, content drafts) to Claude Code, Codex and Cursor. | MCP (hosted) | API-based | CLI | [Link](https://lognorm.com) |
 | **NotFair** | Claude Code skill set for SEO, GEO, Google Ads, and Meta Ads. Connects to live account data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP to execute audits, keyword research, creative analysis, and bid management. | TypeScript | API-based | CLI | [Link](https://github.com/nowork-studio/NotFair) |
+| **Robot Speed** | Hosted SEO and AI-visibility MCP. OAuth remote exposes 39 tools; a rate-limited, read-only no-auth endpoint exposes 12 ([docs](https://www.robot-speed.com/mcp)). EU-hosted (Supabase + Vercel); read-only except 4 write tools. Submitted by the publisher. | Remote MCP (MIT) | API-based | Web UI | [Link](https://github.com/robot-speed/mcp) |
 
 ---
 
@@ -309,6 +313,7 @@ Semantic hypervectorial storage persisting across context limitations.
 | **Graphiti** | Entity compilation into dynamic graph and relation meshes. | Python | API-based | Library | [Link](https://github.com/getzep/graphiti) |
 | **AgentMemory** | Indexable segmented vectors focused on code dependencies. | Python | Local Inference | CLI | [Link](https://github.com/rohitg00/agentmemory) |
 | **Tree Ring Memory** | Local-first memory lifecycle layer with scoped recall, forgetting, and consolidation. | Rust/SQLite | N/A | CLI | [Link](https://github.com/TerminallyLazy/Tree-Ring-Memory) |
+| **SoloPup Memory (public beta)** | DeepSeek Harness text-memory plugin with source references, project/global scope, conditions and correction history; lexical recall. | Node.js/JavaScript/SQLite | API-based | Library | [Link](https://github.com/OakcoderX/solopup-memory) |
 
 ---
 
@@ -322,6 +327,7 @@ Parameterized sets of cases for deterministic measurement.
 | **AgentBench** | Synthetic agent verification across 8 types of sandbox environments. | Python | N/A | CLI | [Link](https://github.com/THUDM/AgentBench) |
 | **WebArena** | Automated interactivity score across 4 cloned web microservices. | Docker/TS | N/A | CLI | [Link](https://github.com/web-arena-x/webarena) |
 | **ClawBench** | Live-site browser-agent benchmark with 283 V1/V2 tasks and five-layer execution traces. | Python/Docker | N/A | CLI | [Link](https://github.com/TIGER-AI-Lab/ClawBench) |
+| **WebsiteBench** | Benchmark for agents that reconstruct full-stack websites through browser exploration, evaluated on appearance and behavior. | Python/Harbor/Docker | N/A | CLI | [Link](https://github.com/TIGER-AI-Lab/WebsiteBench) |
 | **YYLO Benchmark** | Every candidate receives a dedicated fresh repository; evaluator profiles support deterministic commands and configurable LLM judges, and retained receipts, manifests, terminals, and evaluator provenance form one hash-verified evidence chain. | TypeScript/Node | N/A | CLI | [Link](https://github.com/yylo-dev/yylo-benchmark) |
 
 ---
@@ -349,6 +355,7 @@ Frameworks and pipelines designed to enforce policy constraints, prevent prompt 
 | **Garak** | Systematic vulnerability scanner probing for hallucination vectors and jailbreak surfaces in LLM agents. | Python | API-based | CLI | [Link](https://github.com/leondz/garak) |
 | **Lakera Guard** | Comprehensive API-based security middleware blocking active execution attacks on agentic APIs. | Python | API-based | API | [Link](https://github.com/lakeraai) |
 | **Ironheights** | Static pre-install scanner for agent skill folders (SKILL.md and bundled files) that flags prompt injection, hidden text, credential reads, remote-exec installs and persistence, with integrity baselines and SARIF output. Rules run offline; optional LLM review via Ollama or an OpenAI-compatible API. | TypeScript/Node.js | Hybrid | CLI | [Link](https://github.com/Frank-Masciopinto/ironheights) |
+| **HOL Guard** | Local-first policy and approval controls for AI coding agents, evaluating shell, secrets and MCP changes before execution. | Python | N/A | CLI | [Link](https://hol.org/guard) |
 
 ---
 
