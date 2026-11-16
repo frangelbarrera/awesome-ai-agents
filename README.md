@@ -388,7 +388,7 @@ Frameworks and pipelines optimized for low-latency voice-to-voice communication,
 | **Vapi** | End-to-end voice AI platform abstraction allowing integration of interrupting, context-aware audio agents natively via SIP/WebRTC. | TypeScript | API-based | Web/App | [Link](https://github.com/VapiAI) |
 | **OmniChat** | Real-time voice agent framework supporting full-duplex audio with interruption handling and emotion detection. | Python | API-based | Docker | [Link](https://github.com/opengvlab/omnichat) |
 | **Retell AI** | Voice agent API with turn-taking logic, keyword detection, and custom voice cloning for agent personas. | TypeScript | API-based | API | [Link](https://github.com/RetellAI) |
-| **/call-me (CallMeMCP)** | Remote MCP server and agent plugins that ring the user's own phone, speak the agent's text, keep the line open for follow-ups and return the spoken reply as a transcript. Needs the paid /call-me phone app. | Node.js | API-based | MCP / Plugin | [Link](https://github.com/radres/call-me) |
+| **/call-me (CallMeMCP)** | Remote MCP server and agent plugins that ring the user's own phone, speak the agent's text, keep the line open for follow-ups and return the spoken reply as a transcript. Needs the /call-me phone app. The 10-digit number is only an address and the agent only sends text; speech synthesis and transcription run on external services (Fish Audio), brief small-talk replies on Claude Haiku via Amazon Bedrock, hosted on AWS. The server keeps text transcripts and does not store call audio. | Node.js | API-based | MCP / Plugin | [Link](https://github.com/radres/call-me) |
 
 ---
 
