@@ -251,6 +251,7 @@ Agents integrated into enterprise pipelines, DevSecOps workflows, and corporate 
 | **Virtual Company Kernel** | Corporate structural role simulation with pure AI. | Python | Hybrid | CLI | [Link](https://gitlab.com/borrowbrain/virtual-company-kernel) |
 | **Ray Agentic Core** | Base layer for distributed routing, state management, and inference execution across multi-agent node clusters. | C++/Python | Hybrid | Docker | [Link](https://github.com/ray-project/ray) |
 | **Bloop AI** | Real-time active cloud container debugger and codebase navigational agent for distributed platforms. | TS/Rust | API-based | Web UI | [Link](https://github.com/BloopAI/bloop) |
+| **Enhanciar** | Hosted team knowledge agent. Answers questions from Slack, Gmail, Drive, Notion, Jira, Linear and GitHub with a source link, then drafts replies or tickets that wait for human approval. Remote MCP server. | Hosted SaaS | API-based | Web UI | [Link](https://enhanciar.in/?utm_source=directory&utm_medium=listing&utm_campaign=frangelbarrera-awesome-ai-agents) |
 
 ---
 
