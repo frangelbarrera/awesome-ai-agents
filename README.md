@@ -276,6 +276,7 @@ Optimized semantic processing for professional and regulated fields.
 | **FinRobot** | Ingestion and quantitative analysis of corporate documents. | Python | API-based | Library | [Link](https://github.com/ai4finance-foundation/finrobot) |
 | **Dexter** | Iterative balance sheet research via reflection chains. | Python | API-based | CLI | [Link](https://github.com/virattt/dexter) |
 | **TradingAgents** | Distributed environment for transaction simulation. | Python | Hybrid | Docker | [Link](https://tradingagents-ai.github.io/) |
+| **FlowFeed MCP** | Remote MCP server that feeds agents real-time macro, forex and crypto news, an economic calendar and central bank releases (paid). | MCP (Streamable HTTP) | API-based | Hosted | [Link](https://github.com/loyt1/flowfeed-mcp) |
 
 ### Medicine and Healthcare
 | Project | Description | Stack | Engine | Deployment | Link |
