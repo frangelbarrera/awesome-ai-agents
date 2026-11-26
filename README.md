@@ -276,6 +276,7 @@ Optimized semantic processing for professional and regulated fields.
 | **FinRobot** | Ingestion and quantitative analysis of corporate documents. | Python | API-based | Library | [Link](https://github.com/ai4finance-foundation/finrobot) |
 | **Dexter** | Iterative balance sheet research via reflection chains. | Python | API-based | CLI | [Link](https://github.com/virattt/dexter) |
 | **TradingAgents** | Distributed environment for transaction simulation. | Python | Hybrid | Docker | [Link](https://tradingagents-ai.github.io/) |
+| **AlphaSift** | 7-market equity screener, zero-snooping Walk-Forward pattern replay, code-capped (<= 35) LLM re-ranking, 14-tool read-only MCP, and public T+5/10/20 ledger. | Python | Hybrid | CLI | [Link](https://github.com/ZhuLinsen/alphasift) |
 
 ### Medicine and Healthcare
 | Project | Description | Stack | Engine | Deployment | Link |
