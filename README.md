@@ -99,6 +99,7 @@ Development, review, and scaling of source code managed by AI.
 | **CodePilot** | Embeddable Python runtime for autonomous coding agent with ReAct execution, filesystem, terminal, MCP and Python tools. Uses text based code-as-interface protocol rather than native JSON tool calling. | Python | Hybrid | Library | [Link](https://github.com/Jahanzeb-git/codepilot) |
 | **Sillage** | Self-hosted mobile-first web UI that drives the native Claude Code and Codex CLIs on your own machine, with server-side session journals that outlive the client, full-text search across conversations, an IDE panel (files, editor, diffs, terminal), and a board the agents read through its own MCP server. Installable PWA with push. | TypeScript | Hybrid | Web UI / Docker | [Link](https://github.com/MarlBurroW/sillage) |
 | **Zaru** | Terminal agent that runs model-requested tool calls behind per-call permission prompts, re-runs project-declared validator commands until they pass, and logs every step to a JSONL transcript. Pre-alpha, Linux only. | Rust | Hybrid | CLI | [Link](https://github.com/100monkeys-ai/zaru-cli) |
+| **Open Max** | A high-performance, self-extensible terminal coding agent harness in Rust, optimized for prompt caching. The agent can write new tools and skills as files and call them on its next step. MIT. | Rust | Hybrid | CLI | [Link](https://github.com/Max17190/open-max) |
 
 ---
 
